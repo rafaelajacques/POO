@@ -157,10 +157,10 @@ public abstract class BaseVeiculos extends BaseIdentificador {
     public BaseVeiculos() {
     }
 
-    public BaseVeiculos(int codigo, String nome, String chassi, String placa, String codigoRenavam, String modelo,
-            String cor, int eixos, double pesoLiquido, double pesoTotal, String fabricante, double potencia,
-            String tipoCombustivel, String nomeProprietario, String estadoUF, String cidadeUF, String tipoVeiculo,
-            int qtdeMotores, int qtdeOcupantes, int anoModelo, int anoFabricacao, int rodas) {
+    public BaseVeiculos(int codigo, String nome, String placa, String modelo, String cor, int eixos, double pesoLiquido,
+            double pesoTotal, String fabricante, double potencia, String tipoCombustivel, String nomeProprietario,
+            String estadoUF, String cidadeUF, String tipoVeiculo, int qtdeMotores, int qtdeOcupantes, int anoModelo,
+            int anoFabricacao, int rodas) {
         super(codigo, nome, placa);
         this.modelo = modelo;
         this.cor = cor;
