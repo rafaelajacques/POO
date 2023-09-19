@@ -1,4 +1,12 @@
-public void setPortas(int portas) {
+public class Carro extends BaseVeiculosTerrestres {
+
+    private int portas;
+    
+    public int getPortas() {
+        return portas;
+    }
+
+    public void setPortas(int portas) {
         this.portas = portas;
     }
 
@@ -42,4 +50,5 @@ public void setPortas(int portas) {
         System.out.println("Portas: " + this.portas);
         System.out.println("");
     }
+
 }
